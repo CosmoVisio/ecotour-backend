@@ -7,7 +7,7 @@ O projeto consiste em uma API RESTful para o gerenciamento de um sistema de ecot
 ## Tecnologias utilizadas
 
 - Typescript
-- Nest.js
+- NestJS
 - MongoDB
 - Google Cloud Platform
 
