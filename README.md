@@ -15,7 +15,11 @@ O projeto consiste em uma API RESTful para o gerenciamento de um sistema de ecot
 
 - <https://nodejs.org/en>
 - via CLI: `npm i -g @nestjs/cli`
-  
+
+## Configuração do MongoDB
+- <https://www.mongodb.com/try/download/community> v7.0.4
+- Utilize essa porta para padronização: 'mongodb://localhost:27017/'
+
 ## Definição de Modelos
 
 ### Usuário
