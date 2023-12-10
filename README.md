@@ -11,14 +11,49 @@ O projeto consiste em uma API RESTful para o gerenciamento de um sistema de ecot
 - MongoDB
 - Google Cloud Platform
 
-## Instalar Node.js, NPM e NestJS CLI
+## Configuração do Ambiente de Desenvolvimento
 
-- <https://nodejs.org/en>
-- via CLI: `npm i -g @nestjs/cli`
+Este projeto é desenvolvido usando Node.js, NestJS e MongoDB. Siga as instruções abaixo para configurar o ambiente de desenvolvimento.
 
-## Configuração do MongoDB
-- <https://www.mongodb.com/try/download/community> v7.0.4
-- Utilize essa porta para padronização: 'mongodb://localhost:27017/'
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (v14 ou superior)
+- [NPM](https://www.npmjs.com/) (v6 ou superior)
+- [MongoDB](https://www.mongodb.com/try/download/community)
+
+### Instalação
+
+1. **Clonar o Repositório**
+
+   Clone o repositório usando git:
+   ```bash
+   git clone [URL-do-seu-repositorio]
+   cd ecotour-backend
+   ```
+
+2. **Instalar Dependências**
+
+   Dentro da pasta do projeto, execute o seguinte comando para instalar as dependências:
+   ```bash
+   npm install
+   ```
+
+3. **Configurar Variáveis de Ambiente**
+
+   Crie um arquivo `.env` na raiz do projeto e adicione as seguintes variáveis (ajuste os valores conforme necessário):
+   ```
+   MONGO_DB_URI=mongodb://localhost:27017/
+   PORT=27017
+   ```
+
+4. **Executar o Projeto**
+
+   Após configurar as variáveis de ambiente, inicie o servidor de desenvolvimento com:
+   ```bash
+   npm run start:dev
+   ```
+
+   O servidor deve estar rodando na porta especificada (por padrão: `http://localhost:27017`).
 
 ## Definição de Modelos
 
