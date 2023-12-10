@@ -11,6 +11,10 @@ O projeto consiste em uma API RESTful para o gerenciamento de um sistema de ecot
 - MongoDB
 - Google Cloud Platform
 
+## Instalar Node.js, NPM e NestJS CLI
+- https://nodejs.org/en
+- via CLI: `npm i -g @nestjs/cli`
+  
 ## Definição de Modelos
 
 ### Usuário
