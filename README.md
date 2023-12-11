@@ -27,7 +27,7 @@ Este projeto é desenvolvido usando Node.js, NestJS e MongoDB. Siga as instruç�
 
    Clone o repositório usando git:
    ```bash
-   git clone [URL-do-seu-repositorio]
+   git clone <https://github.com/CosmoVisio/ecotour-backend.git>
    cd ecotour-backend
    ```
 
