@@ -1,1 +1,4 @@
-export class CreateTourGuideDto {}
+export class CreateTourGuideDto {
+  name: string;
+  bio: string;
+}
